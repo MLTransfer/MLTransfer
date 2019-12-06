@@ -7,13 +7,14 @@ def cli():
 
 
 @cli.command()
-def send():
-    print('send')
+@click.argument('destination')
+def send(destination):
+    click.echo(f'send to {destination}')
 
 
 @cli.command()
 def receive():
-    print('receive')
+    click.echo('receive')
 
 
 if __name__ == '__main__':
