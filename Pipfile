@@ -10,6 +10,7 @@ numpy = "*"
 pyaescrypt = "*"
 click = "*"
 tensorflow = "*"
+twisted = "*"
 
 [requires]
 python_version = "3.6"
